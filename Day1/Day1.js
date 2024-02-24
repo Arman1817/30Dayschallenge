@@ -6,7 +6,7 @@ function readFileContent(filepath) {
             console.log(err);
         }
         else{
-            console.log(`The Contents of file are:\n ${data}`);
+            console.log('The Contents of file are:\n' + data);
         }
     })
 
